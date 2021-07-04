@@ -2,17 +2,17 @@
 include 'functions.php';
 
 $db = new PDO('sqlite:students.db');
-/* 2-3 Sentences About The createNewStudentDBFile() Function Definition */
+/* MADE UPDATES TO createNewStudentDBFile()  */
 createNewStudentDBFile();
 
-/* 2-3 Sentences About The createStudentsTable() Function Definition */
+/*MADE UPDATES TO createStudentsTable()  */
 createStudentsTable($db);
-/* 2-3 Sentences About The insertNewStudentData() Function Definition */
+/* MADE UPDATES TO insertNewStudentData() */
 insertNewStudentData($db);
 
-/* 2-3 Sentences About The printMostRecent() Function Definition */
+/* MADE UPDATES TO printMostRecent()  */
 printMostRecent($db);
-/* 2-3 Sentences About The printAllData() Function Definition */
+/* MADE UPDATES TO printAllData()  */
 printAllData($db);
 
 
